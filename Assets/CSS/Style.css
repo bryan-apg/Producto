@@ -1,0 +1,11 @@
+body{
+    background-color: #496F70;
+}
+h1{
+    background-color: #55EDF2;
+    border-radius: 10px;
+    text-align: center;
+}
+#carouselExample{
+    width: 75%;
+}

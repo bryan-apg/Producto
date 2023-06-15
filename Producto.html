@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/Assets/CSS/bootstrap.min.css" rel="Stylesheet" />
+</head>
+<body>
+    <header>
+        Registro de Producto
+    </header>
+    <style>
+        body{
+            border: 2px solid;
+            background-color: rgb(255, 255, 255);
+            border-color: rgb(0, 0, 0);
+            margin: 1%;
+            padding: 10%;
+        }
+    </style>
+    <center>
+    <form action="/action_page.php" class="was-validated">
+        <div class="mb-3">
+            <label for="pwd" class="form-label">Codigo:</label>
+            <input type="number" class="form-control" placeholder="Ingrese Codigo de Producto" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Descripcion:</label>
+            <input type="text" class="form-control" placeholder="Ingrese Descripcion" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Codigo de Barra:</label>
+            <input type="text" class="form-control" placeholder="Ingrese Codigo de Barra" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Precio Unitario:</label>
+            <input type="number" class="form-control" placeholder="Ingrese Precio Unitario" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+        <div class="mb-3 mt-3">
+          <label for="uname" class="form-label">Stock:</label>
+          <input type="number" class="form-control" placeholder="Ingrese Stock" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Proveedor:</label>
+          <input type="text" class="form-control" placeholder="Ingrese Proveedor" required >
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" required>
+          <label class="form-check-label" for="myCheck">Activo</label>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Check this checkbox to continue.</div>
+        </div>
+        <div class="mb-3">
+            <label for="pwd" class="form-label">Categoria</label>
+            <select id="Categoria" name="Categoria">
+                <option value="Categoria 1">Categoria 1</option>
+                <option value="Categoria 2">Categoria 2</option>
+                <option value="Categoria 3">Categoria 3</option>
+              </select>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <a href="Mensaje.html" class="button">Validar </a>
+          <button type="reset" onclick="resetForm()">Cancelar</button>
+    </center>
+    </form>
+</body>
+</html>
